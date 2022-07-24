@@ -12,7 +12,10 @@
     <div id="app">
       <div class="nav-bar"></div>
 
-      <div class="cart">Cart({{ cart }})</div>
+      <div class="cart">Cart({{ cart }})
+        <button class="sideButton" @click="removeFromCart">-</button>
+          
+      </div>
       
       <div class="product-display">
         <div class="product-container">
